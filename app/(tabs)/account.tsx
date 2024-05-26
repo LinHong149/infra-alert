@@ -10,7 +10,7 @@ import { ThemedView } from '@/components/ThemedView';
 
 const { width } = Dimensions.get('window');
 
-export default function HomeScreen() {
+export default function App() {
   let [fontsLoaded] = useFonts({
     Inter_400Regular,
     Inter_700Bold,
