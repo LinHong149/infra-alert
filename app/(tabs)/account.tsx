@@ -23,117 +23,53 @@ export default function App() {
     <ScrollView style={styles.container}>
 
       <View style={styles.header}>
-        <Text style={styles.headerText}>InfraAlert</Text>
+        <Image
+              source={{ uri: 'https://i.pinimg.com/originals/2e/3f/3d/2e3f3dd117098b5e442bcb77681e7034.png' }}
+              style={styles.avatar}
+        />
+        <Text style={styles.headerText}>Edit profile picture</Text>
       </View>
 
-      <ScrollView
-        horizontal
-        pagingEnabled
-        showsHorizontalScrollIndicator={false}
-        style={styles.horizontalScrollView}
-      >
-        <View style={styles.widget}>
-          <Text style={styles.widgetTitle}>Current Points</Text>
-          <Text style={styles.widgetContent}>2,405</Text>
-          <Text style={styles.widgetMiniContent}>+20% this month</Text>
+      <View style={styles.infoContainer}>
+        <View style={styles.categoryContainer}>
+            <Text style={styles.category}>Name</Text>
+            <Text style={styles.content}>Helena Hills</Text>
+            <Image
+              source={{ uri: 'https://www.clipartmax.com/png/small/282-2826625_short-arrow-right-svg-png-icon-free-download-487639-slider-arrow-icon.png' }}
+              style={styles.arrow}
+            />
         </View>
-
-        <View style={styles.widget}>
-          <Text style={styles.widgetTitle}>Top Score</Text>
-          <Text style={styles.widgetContent}>4,567</Text>
-          <Text style={styles.widgetMiniContent}>+33% this month</Text>
+        <View style={styles.categoryContainer}>
+            <Text style={styles.category}>Username</Text>
+            <Text style={styles.content}>@helenahills</Text>
+            <Image
+              source={{ uri: 'https://www.clipartmax.com/png/small/282-2826625_short-arrow-right-svg-png-icon-free-download-487639-slider-arrow-icon.png' }}
+              style={styles.arrow}
+            />
         </View>
-        
-      </ScrollView>
-
-
-      <View style={styles.sectionContainer}>
-        <Text style={styles.sectionHeader}>Tasks</Text>
-        <ScrollView
-          horizontal
-          pagingEnabled
-          showsHorizontalScrollIndicator={false}
-          style={styles.horizontalScrollView}
-          >
-          <View style={styles.taskWidget}>
-            <View style={styles.progress}>
-              <Text>2/10</Text>
-            </View>
-            <View style={styles.taskTexts}>
-              <Text style={styles.taskWidgetTitle}>Find 10 Potholes</Text>
-              <Text style={styles.taskWidgetPoints}>+50 points</Text>
-            </View>
-          </View>
-          <View style={[styles.taskWidget, styles.blueTask]}>
-            <View style={styles.progress}>
-              <Text>2/10</Text>
-            </View>
-            <View style={styles.taskTexts}>
-              <Text style={[styles.taskWidgetTitle, styles.blueTask]}>Find 10 Potholes</Text>
-              <Text style={[styles.taskWidgetPoints, styles.blueTask]}>+50 points</Text>
-            </View>
-          </View>
-          <View style={[styles.taskWidget, styles.yellowTask]}>
-            <View style={styles.progress}>
-              <Text>2/10</Text>
-            </View>
-            <View style={styles.taskTexts}>
-              <Text style={[styles.taskWidgetTitle, styles.yellowTask]}>Find 10 Potholes</Text>
-              <Text style={[styles.taskWidgetPoints, styles.yellowTask]}>+50 points</Text>
-            </View>
-          </View>
-          <View style={[styles.taskWidget, styles.yellowTask]}>
-            <View style={styles.progress}>
-              <Text>2/10</Text>
-            </View>
-            <View style={styles.taskTexts}>
-              <Text style={[styles.taskWidgetTitle, styles.yellowTask]}>Find 10 Potholes</Text>
-              <Text style={[styles.taskWidgetPoints, styles.yellowTask]}>+50 points</Text>
-            </View>
-          </View>
-        </ScrollView>
-      </View>
-
-
-      <View style={styles.leaderboardContainer}>
-        <Text style={styles.sectionHeader}>Leaderboard</Text>
-        <View
-          >
-          <View style={styles.row}>
+        <View style={styles.categoryContainer}>
+            <Text style={styles.category}>Email</Text>
+            <Text style={styles.content}>helena.hills@gmail.com</Text>
             <Image
-              source={{ uri: 'https://i.pinimg.com/originals/2e/3f/3d/2e3f3dd117098b5e442bcb77681e7034.png' }}
-              style={styles.avatar}
+              source={{ uri: 'https://www.clipartmax.com/png/small/282-2826625_short-arrow-right-svg-png-icon-free-download-487639-slider-arrow-icon.png' }}
+              style={styles.arrow}
             />
-            <Text style={styles.names}>Helena Hills</Text>
-          </View>
-          <View style={styles.row}>
+        </View>
+        <View style={styles.categoryContainer}>
+            <Text style={styles.category}>Points</Text>
+            <Text style={styles.content}>2,405</Text>
             <Image
-              source={{ uri: 'https://i.pinimg.com/originals/2e/3f/3d/2e3f3dd117098b5e442bcb77681e7034.png' }}
-              style={styles.avatar}
+              source={{ uri: 'https://www.clipartmax.com/png/small/282-2826625_short-arrow-right-svg-png-icon-free-download-487639-slider-arrow-icon.png' }}
+              style={styles.arrow}
             />
-            <Text style={styles.names}>Helena Hills</Text>
-          </View>
-          <View style={styles.row}>
+        </View>
+        <View style={styles.categoryContainer}>
+            <Text style={styles.category}>Bio</Text>
+            <Text style={styles.content}>Hi, I'm Helena, a taxi driver</Text>
             <Image
-              source={{ uri: 'https://i.pinimg.com/originals/2e/3f/3d/2e3f3dd117098b5e442bcb77681e7034.png' }}
-              style={styles.avatar}
+              source={{ uri: 'https://www.clipartmax.com/png/small/282-2826625_short-arrow-right-svg-png-icon-free-download-487639-slider-arrow-icon.png' }}
+              style={styles.arrow}
             />
-            <Text style={styles.names}>Helena Hills</Text>
-          </View>
-          <View style={styles.row}>
-            <Image
-              source={{ uri: 'https://i.pinimg.com/originals/2e/3f/3d/2e3f3dd117098b5e442bcb77681e7034.png' }}
-              style={styles.avatar}
-            />
-            <Text style={styles.names}>Helena Hills</Text>
-          </View>
-          <View style={styles.row}>
-            <Image
-              source={{ uri: 'https://i.pinimg.com/originals/2e/3f/3d/2e3f3dd117098b5e442bcb77681e7034.png' }}
-              style={styles.avatar}
-            />
-            <Text style={styles.names}>Helena Hills</Text>
-          </View>
         </View>
       </View>
 
@@ -161,131 +97,51 @@ const styles = StyleSheet.create({
   },
   header: {
     marginBottom: 24,
+    flex: 1,
+    alignItems: "center",
+    gap: 10
   },
   headerText: {
-    fontSize: 24,
-    fontWeight: 'bold',
+    fontSize: 18,
     // textAlign: 'center',
-    paddingHorizontal: 10,
-    fontFamily: 'Inter_700Bold',
+    fontFamily: 'Inter_400Regular',
+    color: "#0D99FF",
   },
   horizontalScrollView: {
     flexDirection: 'row',
   },
-  widget: {
-    flex: 1,
-    // alignItems: "center", 
-    justifyContent: "center",
-    width: width - 100, // Account for padding
-    borderRadius: 15,
-    paddingHorizontal: 24,
-    paddingVertical: 20,
-    marginHorizontal: 8,
-    borderWidth: 1,
-    borderColor: '#E0E0E0',
-  },
-  widgetTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 8,
-    fontFamily: 'Inter_700Bold',
-  },
-  widgetContent: {
-    fontFamily: 'Inter_700Bold',
-    fontSize: 48,
-    paddingBottom: 8
-  },
-  widgetMiniContent: {
-    fontFamily: 'Inter_400Regular',
-    fontSize: 16,
-    color: '#6c757d',
-  },
-
-
-  sectionContainer: {
-    marginVertical: 30,
-    flex: 1,
-    gap: 10
-  },
-  sectionHeader: {
-    marginHorizontal: 8,
-    fontSize: 20,
-    fontFamily: 'Inter_400Regular',
-  },
-
-  // TASK WIDGET
-
-  taskWidget: {
-    flex: 1,
-    gap: 14,
-    // alignItems: "center", 
-    justifyContent: "center",
-    width: 150, // Account for padding
-    borderRadius: 30,
-    paddingHorizontal: 24,
-    paddingVertical: 20,
-    marginHorizontal: 8,
-    backgroundColor: "#1E1E1E"
-  },
-  progress: {
-    height: 50,
-    width: 50,
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "rgba(255,255,255,0.5)",
-    borderRadius: 100
-  },
-  taskTexts: {
-    flex: 1,
-  },
-  taskWidgetTitle: {
-    fontSize: 18,
-    marginBottom: 2,
-    fontFamily: 'Inter_400Regular',
-    color: "#FFFFFF"
-  },
-  taskWidgetPoints: {
-    fontFamily: 'Inter_400Regular',
-    fontSize: 12,
-    paddingBottom: 8,
-    opacity: 0.8,
-    color: "#FFFFFF"
-  },
-  blueTask: {
-    backgroundColor: "#CCE6ED",
-    color: "#3A4F58"
-  },
-  yellowTask: {
-    backgroundColor: "#F4DBB7",
-    color: "#3A4F58"
-  },
-
-  // LEADERBOARD
-  leaderboardContainer: {
-    borderWidth: 1,
-    borderColor: '#E0E0E0',
-    borderRadius: 30,
-    paddingHorizontal: 20,
-    paddingVertical: 20,
-  },
-  row: {
-    width: "100%",
-    flex: 1,
-    flexDirection: "row",
-    gap: 15,
-    alignItems: "center",
-    paddingHorizontal: 10,
-    marginTop: 20
-  },
-  names: {
-    fontSize: 18,
-    fontFamily: 'Inter_400Regular',
-  },
   avatar: {
     borderRadius: 100,
-    height: 45,
-    width: 45,
+    height: 100,
+    width: 100,
+  },
+
+//   CATEGORY
+
+  infoContainer: {
+    marginTop: 30,
+    flex: 1,
+    flexDirection: "column",
+    gap: 40,
+    padding: 10,
+  },
+  categoryContainer: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between"
+  },
+  category: {
+    width: 100,
+    fontSize: 18,
+  },
+  content: {
+    width: 240,
+    fontSize: 18,
+  },
+  arrow: {
+    width: 10,
+    height: 15,
   }
 
 
