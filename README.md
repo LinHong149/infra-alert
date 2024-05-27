@@ -51,7 +51,7 @@ Future plans for InfraAlert include:
 3. Develop partnerships with city governments, environmental advocacy groups, and tech companies to secure funding and support.
 4. Implementing additional features to further engage users and promote environmental sustainability, such as green energy initiatives and community challenges.
 
-1[Future](https://cdn.discordapp.com/attachments/1070372249959407646/1244765584168583228/17.png?ex=66564dc9&is=6654fc49&hm=8c8eacdd1dec358f9430f1e825a5c7a4646a6c30a653fc8ca8d4d0ac9a4b0263&)
+![Future](https://cdn.discordapp.com/attachments/1070372249959407646/1244765584168583228/17.png?ex=66564dc9&is=6654fc49&hm=8c8eacdd1dec358f9430f1e825a5c7a4646a6c30a653fc8ca8d4d0ac9a4b0263&)
 
 ## Demo
 [App Demo](https://drive.google.com/file/d/1P7s--gt-Is_-pwREwXpjeQ-wgoEbW8kf/view?usp=sharing)
