@@ -2,8 +2,12 @@
 FIRST Girls and Allies STEMathon 2024
 Best Project Award
 
+![Infra Alert](https://cdn.discordapp.com/attachments/1070372249959407646/1244765582046396529/1.png?ex=66564dc9&is=6654fc49&hm=5989cbb83f349e1b2a915555d49b716bdf6fd45b78fffd2f5a7e2617f270b382&)
+
 ## Inspiration
 The inspiration behind InfraAlert stems from the need to improve urban infrastructure and create safer roads. We noticed that our city has many issues, from potholes to fallen signs to broken traffic lights, but the greatest issue we saw was the inefficiency of current reporting methods. Our team aimed to develop an app that leverages AI technology to address this issue. 
+
+![The Problem](https://cdn.discordapp.com/attachments/1070372249959407646/1244765582524551299/5.png?ex=66564dc9&is=6654fc49&hm=beb2ad90287a4241ff28bd1b3ea28c34ee804b8fa45ac1a904af89559875e5f6&)
 
 ## What it does
 InfraAlert is an app that utilizes AI to detect and report infrastructure issues like potholes, fallen streetlamps, and other road damage. It allows users to report these problems by submitting photos, which are then analyzed by the AI to identify and confirm the issues. 
@@ -18,12 +22,14 @@ Our app tackles a multitude of issues:
 
 The app aims to reduce the need for manual patrols, decrease CO2 emissions, and expedite the repair process.
 
-![Image Description](https://cdn.discordapp.com/attachments/1070372249959407646/1244762377233236099/Frame_8.png?ex=66564acd&is=6654f94d&hm=8876f003cf0c0961266fd0db5abb084f622234f0dd9fa66a1751a7358c30d024&)
+![Application](https://cdn.discordapp.com/attachments/1070372249959407646/1244765583095107714/7.png?ex=66564dc9&is=6654fc49&hm=d02c890fb6aea9df7847244563432effb5e14a6ae2477820525757754e136976&)
 
 ## How I built it
 The app is built using AI technology trained with Google Teachable Machines to recognize road conditions. It integrates TensorFlow models to analyze user-submitted photos and detect infrastructure issues. The app also features a user-friendly interface where citizens can report problems, track ongoing repairs, and earn rewards for their contributions. The development involves coding for both the AI detection system and the app's user interface, ensuring seamless interaction and accurate reporting.
 
 The app interface was built using React Native, multiple libraries, and Expo for deployment.
+
+![Image Description](https://cdn.discordapp.com/attachments/1070372249959407646/1244762377233236099/Frame_8.png?ex=66564acd&is=6654f94d&hm=8876f003cf0c0961266fd0db5abb084f622234f0dd9fa66a1751a7358c30d024&)
 
 ## Challenges I ran into
 Some challenges include:
@@ -44,6 +50,8 @@ Future plans for InfraAlert include:
 2. Enhancing the AI's accuracy and capabilities through continuous learning and improvement.
 3. Develop partnerships with city governments, environmental advocacy groups, and tech companies to secure funding and support.
 4. Implementing additional features to further engage users and promote environmental sustainability, such as green energy initiatives and community challenges.
+
+1[Future](https://cdn.discordapp.com/attachments/1070372249959407646/1244765584168583228/17.png?ex=66564dc9&is=6654fc49&hm=8c8eacdd1dec358f9430f1e825a5c7a4646a6c30a653fc8ca8d4d0ac9a4b0263&)
 
 ## Demo
 [App Demo](https://drive.google.com/file/d/1P7s--gt-Is_-pwREwXpjeQ-wgoEbW8kf/view?usp=sharing)
