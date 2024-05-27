@@ -18,6 +18,8 @@ Our app tackles a multitude of issues:
 
 The app aims to reduce the need for manual patrols, decrease CO2 emissions, and expedite the repair process.
 
+![Image Description](https://cdn.discordapp.com/attachments/1070372249959407646/1244762377233236099/Frame_8.png?ex=66564acd&is=6654f94d&hm=8876f003cf0c0961266fd0db5abb084f622234f0dd9fa66a1751a7358c30d024&)
+
 ## How I built it
 The app is built using AI technology trained with Google Teachable Machines to recognize road conditions. It integrates TensorFlow models to analyze user-submitted photos and detect infrastructure issues. The app also features a user-friendly interface where citizens can report problems, track ongoing repairs, and earn rewards for their contributions. The development involves coding for both the AI detection system and the app's user interface, ensuring seamless interaction and accurate reporting.
 
@@ -44,12 +46,11 @@ Future plans for InfraAlert include:
 4. Implementing additional features to further engage users and promote environmental sustainability, such as green energy initiatives and community challenges.
 
 ## Demo
-The demo showcases the AI model's ability to detect road conditions and the app's user interface, where users can report issues, track repairs, and earn rewards. The video includes a tour of the app and a demonstration of the TensorFlow AI model in action.
-
-## Prototype
 [App Demo](https://drive.google.com/file/d/1P7s--gt-Is_-pwREwXpjeQ-wgoEbW8kf/view?usp=sharing)
 [Trained AI Demo](https://drive.google.com/file/d/1S10_Y07oOLRNv5gjXJpk33-pz15VO1JS/view?usp=sharing)
 
+## Prototype
+[Figma Prototype](https://www.figma.com/proto/etX6vjbfn9xwI9oGPmCnB5/STEMathonTeam8AppPrototype?page-id=0%3A1&node-id=21-312&viewport=466%2C332%2C0.06&t=83TqF2fI9vEJqhdY-1&scaling=scale-down&starting-point-node-id=21%3A312&show-proto-sidebar=1)
 
 ## Built With
 - TensorFlow for AI modelling
